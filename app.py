@@ -8,6 +8,7 @@ st.title("Predicción de Diabetes")
 
 st.write("Nombre: Rosa Maria Flores Echeverria")
 st.write("Código ISIL: 18990194")
+st.markdown("[Ver Cuaderno de Google Colab (Modo Lector)](https://colab.research.google.com/drive/1JdT-Hm3E-ZHROKLC3wKCUxr3-h3Gs2f7?usp=sharing)")
 
 pregnancies = st.number_input("Pregnancies")
 glucose = st.number_input("Glucose")
@@ -35,3 +36,5 @@ if st.button("Predecir"):
         st.error("El paciente podría tener diabetes")
     else:
         st.success("El paciente no tendría diabetes")
+
+
