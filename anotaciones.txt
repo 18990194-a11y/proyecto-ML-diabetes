@@ -1,0 +1,1 @@
+"Crea una aplicación Streamlit para predecir diabetes usando un modelo Logistic Regression guardado en formato pkl."
